@@ -194,7 +194,8 @@
       <div class="flex flex-col lg:flex-row justify-around items-center mb-10">
         <div>
           <h3 class="text-5xl font-extrabold text-black mb-4">Deal of the day</h3>
-          <p class="text-base font-medium text-[#2e2e2e99] lg:w-[615px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+          <p class="text-base font-medium text-[#2e2e2e99] lg:w-[615px]">Contrary to popular belief, is not simply
+            random text. It has roots in a piece of classical Latin
             literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <!-- clock -->
@@ -211,42 +212,83 @@
                 <span style="--value:10;"></span>:
               </span>
               <span class="text-base font-medium text-common-2">hours</span>
-              
+
             </div>
             <div class="flex flex-col">
               <span class="countdown font-extrabold text-5xl text-black">
                 <span style="--value:24;"></span>:
               </span>
               <span class="text-base font-medium text-common-2">min</span>
-              
+
             </div>
             <div class="flex flex-col">
               <span class="countdown font-extrabold text-5xl text-black">
                 <span style="--value:37;"></span>
               </span>
               <span class="text-base font-medium text-common-2">sec</span>
-              
+
             </div>
           </div>
         </div>
       </div>
-     <!-- Fruit prices -->
-     <div>
+      <!-- Fruit prices -->
       <div>
-        <div class="card w-96 bg-base-100 shadow-xl">
-          <figure class="px-10 pt-10">
-            <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions">
-              <button class="btn btn-primary">Buy Now</button>
+        <div>
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center gap-y-6">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <hr class="bg-[#12121219]">
+              <p>Apples</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+              </div>
+
+              <div class="card-actions">
+                <!-- The button to open modal -->
+                <a href="#my_modal_8">Details</a>
+              
+                <div class="modal" id="my_modal_8">
+                  <div class="modal-box">
+                    <!-- <h3 class="font-bold text-lg">Hello!</h3>
+                    <p class="py-4">This modal works with anchor links</p> -->
+                    <div class="card">
+                      <figure class="px-10 pt-10">
+                        <img src="./images/fruit6.png" alt="Shoes" class="" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title text-5xl font-extrabold text-black">Apples</h2>
+                        <p class="text-base text-center font-medium text-common-2 mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <div class="rating mt-8">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" checked />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-common" />
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+                    <div class="modal-action flex justify-center items-center">
+                      <div>
+                        <a href="#" class="btn btn-outline text-common hover:bg-common rounded-xl mr-4">Close</a>
+                        <button class="btn btn-outline text-common hover:bg-common rounded-xl">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-     </div>
     </section>
   </body>
   <footer></footer>
