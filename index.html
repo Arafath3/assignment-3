@@ -46,7 +46,7 @@
     <nav class="lg:bg-common rounded-[600px] mt-8">
       <div class="navbar">
         <div class="navbar-center">
-          <div class="dropdown">
+          <div class="dropdown dropdown-end">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
@@ -79,6 +79,9 @@
         <div class="navbar-end hidden lg:flex">
           <div class="form-control mr-[50px]">
             <input type="text" placeholder="Search" class="input input-bordered w-0 md:w-96" />
+            <button class="btn btn-ghost absolute right-64">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6  text-black text-[1rem] placeholder:text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button>
           </div>
         </div>
       </div>
@@ -87,12 +90,12 @@
     <!-- exotic taste section -->
     <section class="my-14">
       <!-- image slide part -->
-      <div class="p-5">
+      <div class="p-5 lg:p-0">
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full bg-gradient-to-t from-black ...">
             <div class="hero" style="background-image: url('./images/banner1.png');">
               <div class="hero-overlay"></div>
-              <div class="hero-content lg:mb-28 text-neutral-content">
+              <div class="hero-content mb-28 text-neutral-content">
                 <div class="text-center">
                   <h1 class="mb-3 lg:mb-5 text-5xl lg:text-[72px] font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
                   <p class="mb-3 lg:mb-5 text-xl font-medium text-white">We supply highly quality organic products</p>
@@ -110,9 +113,9 @@
           <div id="slide2" class="carousel-item relative w-full">
             <div class="hero" style="background-image: url('./images/banner2.png');">
               <div class="hero-overlay"></div>
-              <div class="hero-content mb-10 lg:mb-28 text-neutral-content">
+              <div class="hero-content mb-28 text-neutral-content">
                 <div class="text-center">
-                  <h1 class="mb-3 lg:mb-5 text-4xl lg:text-[72px] font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+                  <h1 class="mb-3 lg:mb-5 text-5xl lg:text-[72px] font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
                   <p class="mb-3 lg:mb-5 text-xl font-medium text-white">We supply highly quality organic products</p>
                   <button class="btn p-3 lg:p-5 bg-common rounded-xl text-white border-0">Shop
                     Now</button>
@@ -566,7 +569,7 @@
           roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
       <!-- choose us container -->
-      <div class="flex flex-col lg:flex-row justify-center items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-3 ">
         <!-- choose us contain -->
 
         <div>
@@ -617,14 +620,14 @@
           </div>
         </div>
         <!-- choose us img -->
-        <div>
+        <div class="order-first lg:order-none flex justify-center">
           <img src="./images/whychoose1.png" alt="">
         </div>
         <div>
           <!-- 4th text -->
           <div
-            class="flex flex-col lg:flex-row justify-center items-center text-center lg:text-right lg:mr-12 my-5 lg:my-0">
-            <div class="lg:mr-6 border-[15px] rounded-full bg-[#1212121A] mb-4 lg:mb-0 ">
+            class="flex flex-col lg:flex-row-reverse justify-center items-center text-center lg:text-right lg:ml-12 my-5 lg:my-0">
+            <div class="lg:ml-6 border-[15px] rounded-full bg-[#1212121A] mb-4 lg:mb-0 ">
               <i class="fa-solid fa-basket-shopping"></i>
             </div>
             <div>
@@ -638,8 +641,8 @@
           </div>
           <!-- 5th text -->
           <div
-            class="flex flex-col lg:flex-row justify-center items-center text-center lg:text-right lg:mr-12 my-5 lg:my-0">
-            <div class="lg:mr-6 border-[15px] rounded-full bg-[#1212121A] mb-4 lg:mb-0 ">
+            class="flex flex-col lg:flex-row-reverse justify-center items-center text-center lg:text-right lg:ml-12 my-5 lg:my-0">
+            <div class="lg:ml-6 border-[15px] rounded-full bg-[#1212121A] mb-4 lg:mb-0 ">
               <i class="fa-solid fa-ice-cream"></i>
             </div>
             <div>
@@ -653,8 +656,8 @@
           </div>
           <!-- 6th text -->
           <div
-            class="flex flex-col lg:flex-row justify-center items-center text-center lg:text-right lg:mr-12 my-5 lg:my-0">
-            <div class="lg:mr-6 border-[15px] rounded-full bg-[#1212121A] mb-4 lg:mb-0 ">
+            class="flex flex-col lg:flex-row-reverse justify-center items-center text-center lg:text-right lg:ml-12 my-5 lg:my-0">
+            <div class="lg:ml-6 border-[15px] rounded-full bg-[#1212121A] mb-4 lg:mb-0 ">
               <i class="fa-solid fa-thumbs-up"></i>
             </div>
             <div>
